@@ -1,0 +1,127 @@
+
+body {
+    position: relative;
+    background-color: black;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+header {
+    display: flex;
+    background-color: rgb(212, 139, 2);
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 130px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+header .header .pict {
+    margin: 5px 5px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+.right-side{
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin-left: 200px;
+
+    background-color: black;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 130px;
+    background-color: rgb(212, 139, 2);
+    transition: all 0.5s ease;
+    top: 0px;
+    bottom: 0px;
+}
+
+.sidebar .top {
+    font-size: 22px;
+    color: rgb(212, 139, 2);
+    text-align: center;
+    line-height: 150px;
+    background-color: rgb(212, 139, 2);
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+
+ul li:hover a{
+    padding: 30%;
+}
+
+.menu{
+    list-style: none;
+    padding: 20px;
+    color: white;
+}
+
+.menu:hover {
+    text-decoration: underline;
+    color: rgb(245, 212, 151);
+}
+
+a {
+    color: var(--color-white);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    border-radius: 15px;
+    margin: 30px 50px 50px 180px;
+    align-items: center;
+}
+
+.main .poster {
+    display: flex;
+}
+
+.main .poster img{
+    width: 500px;
+    min-width: 50px;
+}
+
+.main table {
+    align-items: start;
+    text-align: left;
+}
+
+.main p {
+    margin: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(212, 139, 2);
+    align-items: center;
+}

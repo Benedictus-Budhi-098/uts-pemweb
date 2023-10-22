@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style_form.css">
+
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img class="pict" src="https://drive.google.com/uc?export=view&id=1eX2j72VtAAIuRyMbXAXd_hsM8aG2QVrv" alt="">
+            <div class="right-side">
+                <h2 class="title">
+                    YU-GI-OH! Campus League Is Here!
+                </h2>
+                <p>"Wakilkan ITERA dan Jadilah Duelist Terbaik se-Indonesia!"</p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <li class="menu"><a href="https://www.itera.ac.id/">About ITERA</a></li>
+        <li class="menu"><a href="https://www.jpbintl.co.id/">JPB IL Indonesia</a></li>
+        <li class="menu"><a href="https://www.yugioh-card.com/en/">About YU-GI-OH</a></li>
+    </nav>
+
+    <div class="sidebar">
+        <div class="top">
+            blank
+        </div>
+        <ul>
+            <li><a href="uts_home.html"><img src="https://drive.google.com/uc?export=view&id=1zgzqHu1q4qupYPr1OBIJTNPcnlpDPSM1" alt="Home" width="50px"></a></li>
+            <li><a href="uts_form.html"><img src="https://drive.google.com/uc?export=view&id=1e1W3tJawzZrfG6spbIBqLROS0lweVT1-" alt="Form" width="50px"></a></li>
+            <li><a href="uts_table.html"><img src="https://drive.google.com/uc?export=view&id=1cQeZZvNACYF35fj_Ydwukitde5P2-BCJ" alt="Table" width="50px"></a></li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <h3>Formulir Pendaftaraan</h3>
+        <p>Masukkan Data Diri Anda dengan Informasi yang Benar</p>
+
+        <div class="content">
+        <table>
+            <form method="get">
+                <tr>
+                  <td>Nama :</td>
+                  <td> <input required class="text" name="nama" type="text" /></td>
+                </tr>
+                <tr>
+                  <td>NIM :</td>
+                  <td> <input required class="text" name="nim" type="text" /></td>
+                </tr>
+                <tr>
+                  <td>Program Studi :</td>
+                  <td> <input required class="text" name="program-studi" type="text" /></td>
+                </tr>
+                <tr>
+                  <td>Email :</td>
+                  <td> <input required class="text" name="email"  type="email" /></td>
+                </tr>
+                <tr>
+                  <td>Password :</td>
+                  <td> <input required class="text" name="password" type="password" /></td>
+                </tr>
+                <tr>
+                  <td>Jenis Kelamin :</td>
+                  <td> <input required type="radio" id="laki-laki" name="gender" value="Laki-Laki" /> <label for="laki-laki">Laki-Laki</label>  <input type="radio" id="perempuan" name="gender" value="Perempuan" /> <label for="perempuan">Perempuan</label> </td>
+                </tr>
+                <tr>
+                  <td>Tanggal Lahir :</td>
+                  <td> <input required name="tanggal" type="date" /></td>
+                </tr>
+                <tr>  
+                  <td>Alamat :</td>
+                  <td> <input required class="text" name="alamat" type="text" /></td>
+                </tr>
+                <tr>
+                  <td colspan="2"><input class="submit" type="submit"></td>
+                </tr>
+              </form>
+        </table><br>
+        </div>
+    </div>
+
+    <footer>
+        <br><small>Copyright &copy; Benedictus Budhi Dharmawan &copy; 2023</small>
+        <small>All Rights Reserved</small><br>
+    </footer>
+</body>
+</html>
